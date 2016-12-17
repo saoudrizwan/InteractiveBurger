@@ -5,5 +5,4 @@
 
 ---
 
-*Read more about animating constraints with UIViewPropertyAnimator:*
-https://medium.com/@sdrzn/animating-constraints-using-ios-10s-new-uiviewpropertyanimator-944bbb42347b
+*Read more about animating constraints with UIViewPropertyAnimator:* https://medium.com/@sdrzn/animating-constraints-using-ios-10s-new-uiviewpropertyanimator-944bbb42347b
