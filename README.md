@@ -1,7 +1,7 @@
 # InteractiveBurger
 *(Beware: heavily documented with personal notes on UIViewPropertyAnimator and its intricacies)*
 
-![demo](http://i.imgur.com/CHI3tia.gif)
+| ![demo](http://i.imgur.com/CHI3tia.gif) | ![demo](http://i.imgur.com/CHI3tia.gif) |
 
 ---
 
