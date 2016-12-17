@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1052E0911E04DA9C003C7167"
-               BuildableName = "InteractiveBurger.app"
-               BlueprintName = "InteractiveBurger"
-               ReferencedContainer = "container:InteractiveBurger.xcodeproj">
+               BlueprintIdentifier = "05677AF99B3D4C6623039EA8B91F035E"
+               BuildableName = "Pods_InteractiveBurger.framework"
+               BlueprintName = "Pods-InteractiveBurger"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1052E0911E04DA9C003C7167"
-            BuildableName = "InteractiveBurger.app"
-            BlueprintName = "InteractiveBurger"
-            ReferencedContainer = "container:InteractiveBurger.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1052E0911E04DA9C003C7167"
-            BuildableName = "InteractiveBurger.app"
-            BlueprintName = "InteractiveBurger"
-            ReferencedContainer = "container:InteractiveBurger.xcodeproj">
+            BlueprintIdentifier = "05677AF99B3D4C6623039EA8B91F035E"
+            BuildableName = "Pods_InteractiveBurger.framework"
+            BlueprintName = "Pods-InteractiveBurger"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1052E0911E04DA9C003C7167"
-            BuildableName = "InteractiveBurger.app"
-            BlueprintName = "InteractiveBurger"
-            ReferencedContainer = "container:InteractiveBurger.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		1052E0961E04DA9C003C7167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E0951E04DA9C003C7167 /* AppDelegate.swift */; };
 		1052E0981E04DA9C003C7167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E0971E04DA9C003C7167 /* ViewController.swift */; };
-		1052E09B1E04DA9C003C7167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052E0991E04DA9C003C7167 /* Main.storyboard */; };
 		1052E09D1E04DA9C003C7167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052E09C1E04DA9C003C7167 /* Assets.xcassets */; };
 		1052E0A01E04DA9C003C7167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052E09E1E04DA9C003C7167 /* LaunchScreen.storyboard */; };
+		80347DFA89B4F5287E05E093 /* Pods_InteractiveBurger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93231249BD230FDFA89BF2B7 /* Pods_InteractiveBurger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1052E0921E04DA9C003C7167 /* InteractiveBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1052E0951E04DA9C003C7167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1052E0971E04DA9C003C7167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1052E09A1E04DA9C003C7167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1052E09C1E04DA9C003C7167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1052E09F1E04DA9C003C7167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1052E0A11E04DA9C003C7167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93231249BD230FDFA89BF2B7 /* Pods_InteractiveBurger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteractiveBurger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A3E5626D65E307723C2694 /* Pods-InteractiveBurger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteractiveBurger.release.xcconfig"; path = "Pods/Target Support Files/Pods-InteractiveBurger/Pods-InteractiveBurger.release.xcconfig"; sourceTree = "<group>"; };
+		F665E346EAFD95F040EE07C6 /* Pods-InteractiveBurger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteractiveBurger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InteractiveBurger/Pods-InteractiveBurger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80347DFA89B4F5287E05E093 /* Pods_InteractiveBurger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,8 @@
 			children = (
 				1052E0941E04DA9C003C7167 /* InteractiveBurger */,
 				1052E0931E04DA9C003C7167 /* Products */,
+				4EFE5E8593B9DF946E53C5A3 /* Pods */,
+				658B2C0C7BFF2702DA33DDC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +61,36 @@
 			children = (
 				1052E0951E04DA9C003C7167 /* AppDelegate.swift */,
 				1052E0971E04DA9C003C7167 /* ViewController.swift */,
-				1052E0991E04DA9C003C7167 /* Main.storyboard */,
+				1052E0A71E04DADB003C7167 /* Assets */,
+			);
+			path = InteractiveBurger;
+			sourceTree = "<group>";
+		};
+		1052E0A71E04DADB003C7167 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				1052E09C1E04DA9C003C7167 /* Assets.xcassets */,
 				1052E09E1E04DA9C003C7167 /* LaunchScreen.storyboard */,
 				1052E0A11E04DA9C003C7167 /* Info.plist */,
 			);
-			path = InteractiveBurger;
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4EFE5E8593B9DF946E53C5A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F665E346EAFD95F040EE07C6 /* Pods-InteractiveBurger.debug.xcconfig */,
+				F0A3E5626D65E307723C2694 /* Pods-InteractiveBurger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		658B2C0C7BFF2702DA33DDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93231249BD230FDFA89BF2B7 /* Pods_InteractiveBurger.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1052E0A41E04DA9C003C7167 /* Build configuration list for PBXNativeTarget "InteractiveBurger" */;
 			buildPhases = (
+				CF8A9B6D5219E7C4DD552A64 /* [CP] Check Pods Manifest.lock */,
 				1052E08E1E04DA9C003C7167 /* Sources */,
 				1052E08F1E04DA9C003C7167 /* Frameworks */,
 				1052E0901E04DA9C003C7167 /* Resources */,
+				612BD465BA8358F4B96779F4 /* [CP] Embed Pods Frameworks */,
+				FA0D103EDD4E093CDF61AF7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +157,58 @@
 			files = (
 				1052E0A01E04DA9C003C7167 /* LaunchScreen.storyboard in Resources */,
 				1052E09D1E04DA9C003C7167 /* Assets.xcassets in Resources */,
-				1052E09B1E04DA9C003C7167 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		612BD465BA8358F4B96779F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InteractiveBurger/Pods-InteractiveBurger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8A9B6D5219E7C4DD552A64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0D103EDD4E093CDF61AF7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InteractiveBurger/Pods-InteractiveBurger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1052E08E1E04DA9C003C7167 /* Sources */ = {
@@ -144,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1052E0991E04DA9C003C7167 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1052E09A1E04DA9C003C7167 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1052E09E1E04DA9C003C7167 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,9 +329,12 @@
 		};
 		1052E0A51E04DA9C003C7167 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F665E346EAFD95F040EE07C6 /* Pods-InteractiveBurger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InteractiveBurger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = croutons.InteractiveBurger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +344,12 @@
 		};
 		1052E0A61E04DA9C003C7167 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A3E5626D65E307723C2694 /* Pods-InteractiveBurger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InteractiveBurger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = croutons.InteractiveBurger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +376,7 @@
 				1052E0A61E04DA9C003C7167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
