@@ -1,7 +1,9 @@
 # InteractiveBurger
-(Beware: heavily documented with personal notes on UIViewPropertyAnimator and its intricacies)
+*(**Beware:** heavily documented with personal notes on UIViewPropertyAnimator and its intricacies)*
 
 ![demo](http://i.imgur.com/CHI3tia.gif)
+
+---
 
 Read more about animating constraints with UIViewPropertyAnimator:
 
